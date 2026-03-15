@@ -10,6 +10,7 @@ const Tiptap = () => {
       StarterKit,
       Placeholder.configure({ placeholder: "Start typing..." }),
     ],
+    autofocus: "start",
     // Don't render immediately on the server to avoid SSR issues
     immediatelyRender: false,
   })
