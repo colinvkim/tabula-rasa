@@ -8,14 +8,17 @@ const Tiptap = () => {
   const editor = useEditor({
     extensions: [
       StarterKit,
-      Placeholder.configure({ placeholder: "Start typing..." }),
+      Placeholder.configure({
+        placeholder: "Write something ...",
+        emptyEditorClass: "is-editor-empty",
+      }),
     ],
     autofocus: "start",
     // Don't render immediately on the server to avoid SSR issues
     immediatelyRender: false,
   })
 
-  return <EditorContent editor={editor} />
+  return <EditorContent editor={editor} className="editor" />
 }
 
 export default Tiptap
