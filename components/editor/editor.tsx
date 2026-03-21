@@ -26,11 +26,11 @@ const Tiptap = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <div className="sticky top-0 z-20 border-b border-border/70 bg-background/85 backdrop-blur-xl">
+      {/* <div className="sticky top-0 z-20 border-b border-border/70 bg-background/85 backdrop-blur-xl">
         <div className="mx-auto w-full max-w-6xl px-3 py-3 sm:px-5">
           {editor ? <EditorToolbar editor={editor} /> : null}
         </div>
-      </div>
+      </div> */}
 
       <div className="mx-auto w-full max-w-5xl">
         <EditorContent editor={editor} className="w-full" />
