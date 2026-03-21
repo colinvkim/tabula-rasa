@@ -19,7 +19,7 @@ const Tiptap = () => {
   })
 
   return (
-    <EditorContent editor={editor} className="editor min-h-screen w-full" />
+    <EditorContent editor={editor} className="min-h-screen w-full" />
   )
 }
 
