@@ -9,7 +9,7 @@ const Tiptap = () => {
     extensions: [
       StarterKit,
       Placeholder.configure({
-        placeholder: "Write something ...",
+        placeholder: "Write something...",
         emptyEditorClass: "is-editor-empty",
       }),
     ],
@@ -18,7 +18,9 @@ const Tiptap = () => {
     immediatelyRender: false,
   })
 
-  return <EditorContent editor={editor} className="editor min-h-screen w-full" />
+  return (
+    <EditorContent editor={editor} className="editor min-h-screen w-full" />
+  )
 }
 
 export default Tiptap
