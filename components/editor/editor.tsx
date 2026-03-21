@@ -18,7 +18,7 @@ const Tiptap = () => {
     immediatelyRender: false,
   })
 
-  return <EditorContent editor={editor} className="editor" />
+  return <EditorContent editor={editor} className="editor min-h-screen w-full" />
 }
 
 export default Tiptap

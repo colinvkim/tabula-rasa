@@ -134,3 +134,17 @@
   height: 0;
   pointer-events: none;
 }
+
+.editor {
+  width: 100%;
+}
+
+.editor .tiptap {
+  min-height: 100vh;
+  padding-inline: clamp(1.5rem, 4vw, 4rem);
+  padding-block: 3rem;
+}
+
+.editor .tiptap:focus {
+  outline: none;
+}
